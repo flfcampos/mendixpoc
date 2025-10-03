@@ -1,14 +1,7 @@
 
-# 🌐 Estratégia de Publicação de Aplicações Mendix – Visão Executiva
+# 🌐 Estratégia de Publicação de Aplicações Mendix  
 
-## 1. Objetivo
-Definir as opções viáveis de publicação e operação de aplicações Mendix, avaliando complexidade operacional, necessidade de SRE, custo e cenários ideais (POC vs Produção).  
-
-> ⚙️ **Importante:** Em todas as opções, a solução final deve contemplar **(1) a publicação do aplicativo Mendix** e **(2) a disponibilização e manutenção de um banco de dados funcional**, essenciais para o funcionamento completo da aplicação.
-
----
-
-## 2. Opções de Publicação
+## 1. Opções de Publicação
 
 ### 🐳 1. Docker Local (POC e Desenvolvimento)
 **Descrição:**  
@@ -129,7 +122,7 @@ Mesmo modelo do AKS, porém executado em outro provedor ou on-premises.
 
 ---
 
-## 3. Estimativas de Custo (Mensal)
+## 2. Estimativas de Custo (Mensal)
 
 | Cenário | Inclui App + DB | HA | Estimativa (USD) | Estimativa (BRL) |
 |--------|------------------|----|------------------|------------------|
@@ -148,7 +141,7 @@ Mesmo modelo do AKS, porém executado em outro provedor ou on-premises.
 
 ---
 
-## 4. Recomendação Estratégica
+## 3. Recomendação Estratégica
 - **Exploração/POC:** 🐳 Docker Local.  
 - **Entrega rápida e sem SRE:** ☁️ Mendix Cloud.  
 - **Produção corporativa (compliance, VPC, observabilidade):** ☸️ AKS.  
@@ -156,7 +149,7 @@ Mesmo modelo do AKS, porém executado em outro provedor ou on-premises.
 
 ---
 
-## 5. Conclusão
+## 4. Conclusão
 - Todas as opções envolvem a **publicação do app Mendix e a provisão de um banco de dados funcional**.  
 - **Sem SRE e foco em velocidade:** Mendix Cloud.  
 - **Controle total, integração e governança:** Kubernetes (AKS/EKS/GKE).  
