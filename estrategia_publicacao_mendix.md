@@ -1,5 +1,5 @@
 
-# 🌐 Estratégia de Publicação de Aplicações Mendix  
+# 🌐 Aplicações Mendix  
 
 ## 1. Opções de Publicação
 
