@@ -3,7 +3,7 @@
 
 ## 1. Opções de Publicação
 
-### 🐳 1. Docker Local (POC e Desenvolvimento)
+### 🐳 a. Docker Local (POC e Desenvolvimento)
 **Descrição:**  
 Execução local via contêiner Docker, ideal para laboratórios, provas de conceito e desenvolvimento inicial.
 
@@ -32,7 +32,7 @@ Execução local via contêiner Docker, ideal para laboratórios, provas de conc
 
 ---
 
-### ☁️ 2. Mendix Cloud (SaaS Gerenciado)
+### ☁️ b. Mendix Cloud (SaaS Gerenciado)
 **Descrição:**  
 Plataforma como serviço oferecida pela Mendix, totalmente gerenciada e hospedada em nuvem (AWS subjacente).
 
@@ -62,7 +62,7 @@ Plataforma como serviço oferecida pela Mendix, totalmente gerenciada e hospedad
 
 ---
 
-### ☸️ 3. Azure Kubernetes Service (AKS)
+### ☸️ c. Azure Kubernetes Service (AKS)
 **Descrição:**  
 Implantação em cluster Kubernetes no Azure, com suporte a observabilidade corporativa, RBAC, escalabilidade e compliance.
 
@@ -98,7 +98,7 @@ Implantação em cluster Kubernetes no Azure, com suporte a observabilidade corp
 
 ---
 
-### ☸️ 4. Kubernetes em Outros CSPs (EKS – AWS / GKE – GCP / On-Prem)
+### ☸️ d. Kubernetes em Outros CSPs (EKS – AWS / GKE – GCP / On-Prem)
 **Descrição:**  
 Mesmo modelo do AKS, porém executado em outro provedor ou on-premises.
 
