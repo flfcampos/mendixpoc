@@ -1,4 +1,4 @@
-# 🌐 Estratégia de Publicação de Aplicações Mendix – Visão Executiva
+# 🌐 Publicação de Aplicações Mendix 
 
 ## 1. Objetivo
 Definir as opções viáveis de publicação e operação de aplicações Mendix, avaliando complexidade operacional, necessidade de SRE, custo e cenários ideais (POC vs Produção).
